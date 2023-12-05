@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-05T00:48:44Z" name="Suite1" finished-at="2023-12-05T00:48:45Z" duration-ms="303">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:luma.ny.myrunner.MyRunner@7671cb68]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-05T00:48:44Z" name="smoke test" finished-at="2023-12-05T00:48:45Z" duration-ms="303">
+      <class name="luma.ny.myrunner.MyRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:luma.ny.myrunner.MyRunner@7671cb68]" started-at="2023-12-05T00:48:44Z" name="setUpClass" finished-at="2023-12-05T00:48:44Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:luma.ny.myrunner.MyRunner@7671cb68]" started-at="2023-12-05T00:48:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-05T00:48:44Z" duration-ms="85" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid able loging the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Valid Users can login the application.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at luma.ny.stepdefinition.NewStepDef.user_is_able_to_click_on_sign_in_btn(NewStepDef.java:25)
+at ✽.User is able to click on sign in BTN(file:///C:/Users/hassi/Documents/Ec/Luma_Automation_Framework2/./Features/LoginTest.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:luma.ny.myrunner.MyRunner@7671cb68]" started-at="2023-12-05T00:48:44Z" name="tearDownClass" finished-at="2023-12-05T00:48:45Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- luma.ny.myrunner.MyRunner -->
+    </test> <!-- smoke test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

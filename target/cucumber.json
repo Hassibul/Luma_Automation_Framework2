@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-05T01:13:56.584Z",
+        "line": 3,
+        "name": "Valid able loging the application",
+        "description": "",
+        "id": "valid-users-can-login-the-application.;valid-able-loging-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1846463300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is able to open the browser",
+            "match": {
+              "location": "luma.ny.stepdefinition.NewStepDef.user_is_able_to_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is able to enter the URL",
+            "match": {
+              "location": "luma.ny.stepdefinition.NewStepDef.user_is_able_to_enter_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1243740000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is able to click on sign in BTN",
+            "match": {
+              "location": "luma.ny.stepdefinition.NewStepDef.user_is_able_to_click_on_sign_in_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126763100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter the user name",
+            "match": {
+              "location": "luma.ny.stepdefinition.NewStepDef.user_is_able_to_enter_the_user_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62045900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter the password",
+            "match": {
+              "location": "luma.ny.stepdefinition.NewStepDef.user_is_able_to_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1337462000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is able to click on log in BTN",
+            "match": {
+              "location": "luma.ny.stepdefinition.NewStepDef.user_is_able_to_click_on_log_in_btn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Valid Users can login the application.",
+    "description": "",
+    "id": "valid-users-can-login-the-application.",
+    "keyword": "Feature",
+    "uri": "file:Features/LoginTest.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,7 @@
+luma\ny\basepage\BasePage.class
+luma\ny\generic\WaitHelper.class
+luma\ny\generic\DatabaseUtil.class
+luma\ny\generic\CommunUtil.class
+luma\ny\generic\ExcelUtil.class
+luma\ny\listener\TestListener.class
+luma\ny\elementspage\LoginPage.class
